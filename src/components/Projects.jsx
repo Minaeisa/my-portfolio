@@ -3,13 +3,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    id: 1,
-    name: "E-commarce",
-    description: "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.Currently, two official plugins are available",
-    image:"/ecommerce.jpeg",
-    liveLink: "e-commarce-seven.vercel.app/",
-    codeLink: "https://github.com/makariosfaiz123/E-commarce",
-  },
+  id: 1,
+  name: "Ecommerce Website",
+  description:
+    "A full-featured e-commerce website built with React.js, Tailwind CSS, Redux Toolkit, Axios, and React Router. Includes product filtering, cart, login/register, and more.",
+  image: "/ecommerce.jpeg", 
+  liveLink: "https://ecommerce-project-fxi7.vercel.app/",
+  codeLink: "https://github.com/Minaeisa/Ecommerce-Project",
+},
   {
     id: 2,
     name: "crud-product-app",
