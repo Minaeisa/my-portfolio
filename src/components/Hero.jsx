@@ -35,7 +35,7 @@ const Hero = () => {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.4, delay: 0.4 }}
-        href="/MY CV.pdf"
+        href="/Mina_Eisa_CV.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg transition text-center"
