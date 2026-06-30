@@ -12,6 +12,19 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'ContentAI — AI SaaS',
+      description: 'AI-powered content generation SaaS with Google Gemini, real-time SSE streaming, JWT auth, Stripe subscriptions, and 10+ content templates.',
+      longDescription: 'A full-stack AI SaaS platform built with Next.js 14 + NestJS. Features: JWT auth with refresh tokens, Google Gemini 1.5 Flash for AI generation, real-time streaming output (SSE), 10+ content templates (blog posts, emails, social media, ad copy, cover letters & more), content history with favorites, free plan (5/day) vs Pro plan via Stripe subscriptions, and a clean dark-mode dashboard.',
+      technologies: ['Next.js 14', 'NestJS', 'MongoDB', 'Google Gemini AI', 'Stripe', 'TypeScript', 'Tailwind CSS', 'Zustand'],
+      gradient: 'from-violet-600 to-purple-600',
+      icon: '✨',
+      liveUrl: '#',
+      githubUrl: 'https://github.com/Minaeisa/contentai-frontend',
+      category: 'AI SaaS',
+      featured: true,
+    },
+    {
+      id: 2,
       title: 'TaskFlow — SaaS',
       description: 'Full-stack project management SaaS with Kanban board, multi-tenant workspaces, JWT auth with refresh tokens, and drag & drop task management.',
       longDescription: 'A production-ready SaaS built from scratch. Features: JWT auth (access + refresh tokens), multi-tenant workspaces with role-based access (Owner/Admin/Member), Kanban board with drag & drop, task priorities, due dates, tags, assignees, and a real-time dashboard with project stats.',
@@ -129,7 +142,7 @@ const Projects = () => {
     },
   ]
 
-  const categories = ['All', 'Full-Stack', 'Desktop', 'Frontend']
+  const categories = ['All', 'Full-Stack', 'Desktop', 'Frontend', 'AI SaaS']
 
   const filteredProjects = activeCategory === 'All'
     ? projects
