@@ -63,7 +63,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 2,
+      id: 6,
       title: 'Hayah Factory — Desktop ERP',
       description: 'Electron desktop app for a food-packaging factory. Manages inventory, sales, purchases, employees, and 3 financial pockets with full Arabic RTL UI.',
       longDescription: 'A full-featured factory management system built with Electron + React 19. Features: admin/employee roles with SHA-256 auth, 3-pocket financial management (cash/bank/wallet), sales & purchase invoices with partial/credit payment, customer & supplier ledgers, manufacturing workflow with waste tracking, employee salaries & advances, daily log, financial reports, SQLite local storage, and JSON backup/restore.',
@@ -76,7 +76,7 @@ const Projects = () => {
       featured: false,
     },
     {
-      id: 3,
+      id: 7,
       title: 'E-Commerce MERN',
       description: 'Full-stack e-commerce application with user authentication, product catalog, shopping cart, and order management system.',
       longDescription: 'A complete full-stack e-commerce platform with user registration & login (JWT), product browsing with search and filtering, shopping cart with quantity control, order management, and admin dashboard for inventory control.',
@@ -89,7 +89,7 @@ const Projects = () => {
       featured: false,
     },
     {
-      id: 4,
+      id: 8,
       title: 'Ecommerce React App',
       description: 'Modern responsive e-commerce website with cart, authentication, and dynamic product pages built with React and Tailwind CSS.',
       longDescription: 'A fully responsive e-commerce frontend with authentication (Login/Register), add to cart with quantity control, cart saved in localStorage, dynamic product pages, routing with React Router, hero sliders, and category filters.',
@@ -102,7 +102,7 @@ const Projects = () => {
       featured: false,
     },
     {
-      id: 5,
+      id: 9,
       title: 'CRUD Product App',
       description: 'Product management app with full CRUD operations, automatic price calculations, search, and localStorage persistence.',
       longDescription: 'A clean product management app with: add/edit/delete products, automatic total price calculation, search by title or category, and data persistence using localStorage.',
@@ -115,7 +115,7 @@ const Projects = () => {
       featured: false,
     },
     {
-      id: 6,
+      id: 10,
       title: 'Portfolio Website',
       description: 'Personal portfolio with smooth animations, typing effect, skills section, and a contact form with email integration.',
       longDescription: 'Responsive portfolio with animated sections, typing animation, skills progress bars, projects gallery with filtering, contact form with Nodemailer email integration, and smooth scroll navigation.',
@@ -128,7 +128,7 @@ const Projects = () => {
       featured: false,
     },
     {
-      id: 7,
+      id: 11,
       title: 'To-Do List',
       description: 'Clean task management app with add/delete tasks and localStorage persistence across browser sessions.',
       longDescription: 'A minimal task manager with add/delete tasks, browser persistence via localStorage, and a clean intuitive interface.',
@@ -141,7 +141,7 @@ const Projects = () => {
       featured: false,
     },
     {
-      id: 8,
+      id: 12,
       title: 'Calculator',
       description: 'Fully functional calculator with keyboard support, all arithmetic operations, and a clean modern UI.',
       longDescription: 'A precise calculator supporting +, -, *, / operations, full keyboard input (numbers, Enter, Backspace, Escape), clear and delete buttons, and accurate result display.',
@@ -154,7 +154,7 @@ const Projects = () => {
       featured: false,
     },
     {
-      id: 9,
+      id: 13,
       title: 'Login Form',
       description: 'Responsive login form with input validation, user-friendly error messages, and session management via localStorage.',
       longDescription: 'A clean login form with email and password validation, responsive design, and localStorage-based session handling.',
