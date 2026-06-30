@@ -25,6 +25,19 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: 'ChatApp — Real-Time Messaging',
+      description: 'Real-time chat application with WebSocket rooms, direct messages, typing indicators, online presence, and JWT authentication.',
+      longDescription: 'A full-stack real-time chat app built with Next.js 14 + NestJS + Socket.io. Features: JWT auth, public/private rooms, direct messages (DM), real-time typing indicators, online/offline presence tracking, message delete (soft), read receipts, room search, user search, and a clean dark-mode chat UI similar to Discord/Slack.',
+      technologies: ['Next.js 14', 'NestJS', 'Socket.io', 'MongoDB', 'TypeScript', 'Tailwind CSS', 'Zustand', 'JWT'],
+      gradient: 'from-blue-600 to-cyan-500',
+      icon: '💬',
+      liveUrl: '#',
+      githubUrl: 'https://github.com/Minaeisa/chatapp-frontend',
+      category: 'Full-Stack',
+      featured: true,
+    },
+    {
+      id: 3,
       title: 'TaskFlow — SaaS',
       description: 'Full-stack project management SaaS with Kanban board, multi-tenant workspaces, JWT auth with refresh tokens, and drag & drop task management.',
       longDescription: 'A production-ready SaaS built from scratch. Features: JWT auth (access + refresh tokens), multi-tenant workspaces with role-based access (Owner/Admin/Member), Kanban board with drag & drop, task priorities, due dates, tags, assignees, and a real-time dashboard with project stats.',
@@ -142,7 +155,7 @@ const Projects = () => {
     },
   ]
 
-  const categories = ['All', 'Full-Stack', 'Desktop', 'Frontend', 'AI SaaS']
+  const categories = ['All', 'AI SaaS', 'Full-Stack', 'Desktop', 'Frontend']
 
   const filteredProjects = activeCategory === 'All'
     ? projects
